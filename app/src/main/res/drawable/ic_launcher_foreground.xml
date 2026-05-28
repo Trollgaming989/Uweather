@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Radar outermost concentric sweep lines -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26"
+        android:strokeColor="#1E00FFCC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+        
+    <path
+        android:pathData="M54,36 A18,18 0 1,1 53.9,36"
+        android:strokeColor="#3C00FFCC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Scanning direction beam -->
+    <path
+        android:pathData="M54,54 L72,36"
+        android:strokeColor="#FF00FFCC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Center pivot -->
+    <path
+        android:pathData="M54,54 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0"
+        android:fillColor="#FF00FFCC" />
+
+    <!-- Weather Cloud overlay on safe high areas -->
+    <path
+        android:pathData="M44,48 C41.5,48 39.5,46 39.5,43.5 C39.5,41.2 41.2,39.3 43.5,39 C44.5,35.5 47.5,33 51,33 C54.8,33 58,35.8 58.4,39.5 C59.2,39.1 60,39 61,39 C64,39 66.5,41.5 66.5,44.5 C66.5,47.5 64,50 61,50 L44,50 Z"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Precision sensory signal lightning bolt -->
+    <path
+        android:pathData="M52,54 L46,62 L50,62 L45,71 L56,60 L51,60 Z"
+        android:fillColor="#FFFFEB3B" />
+
+    <!-- Rain drops -->
+    <path
+        android:pathData="M38,58 L37,61 M61,56 L60,59"
+        android:strokeColor="#FF40C4FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>

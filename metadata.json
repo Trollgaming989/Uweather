@@ -1,0 +1,6 @@
+{
+  "name": "Weather Radar",
+  "description": "Professional weather app with live radar, precipitation and temperature animations, real-time alerts, and AI-powered weather briefings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
